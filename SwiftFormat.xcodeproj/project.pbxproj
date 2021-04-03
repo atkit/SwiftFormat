@@ -74,6 +74,10 @@
 		01F3DF901DBA003E00454944 /* InferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F3DF8F1DBA003E00454944 /* InferenceTests.swift */; };
 		37D828AB24BF77DA0012FC0A /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D828AA24BF77DA0012FC0A /* XcodeKit.framework */; };
 		37D828AC24BF77DA0012FC0A /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 37D828AA24BF77DA0012FC0A /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4967C03B2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967C03A2618AB0E009C83D5 /* DirectoryWatcher.swift */; };
+		4967C03C2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967C03A2618AB0E009C83D5 /* DirectoryWatcher.swift */; };
+		4967C03D2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967C03A2618AB0E009C83D5 /* DirectoryWatcher.swift */; };
+		4967C03E2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4967C03A2618AB0E009C83D5 /* DirectoryWatcher.swift */; };
 		9028F7831DA4B435009FE5B4 /* SwiftFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EAC41D5DB54A00A0A8E3 /* SwiftFormat.swift */; };
 		9028F7841DA4B435009FE5B4 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EABF1D5DB4F700A0A8E3 /* Tokenizer.swift */; };
 		9028F7851DA4B435009FE5B4 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B3987C1D763493009ADE61 /* Formatter.swift */; };
@@ -209,6 +213,7 @@
 		01F3DF8B1DB9FD3F00454944 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		01F3DF8F1DBA003E00454944 /* InferenceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InferenceTests.swift; sourceTree = "<group>"; };
 		37D828AA24BF77DA0012FC0A /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		4967C03A2618AB0E009C83D5 /* DirectoryWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryWatcher.swift; sourceTree = "<group>"; };
 		90C4B6CA1DA4B04A009EB000 /* SwiftFormat for Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftFormat for Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C4B6CC1DA4B04A009EB000 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90C4B6D01DA4B04A009EB000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -342,6 +347,7 @@
 				01A0EAC41D5DB54A00A0A8E3 /* SwiftFormat.swift */,
 				01A0EABF1D5DB4F700A0A8E3 /* Tokenizer.swift */,
 				01BBD85821DAA2A000457380 /* Globs.swift */,
+				4967C03A2618AB0E009C83D5 /* DirectoryWatcher.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -781,6 +787,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4967C03B2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */,
 				01045A992119979400D2BE3D /* Arguments.swift in Sources */,
 				01567D2F225B2BFD00B22D41 /* ParsingHelpers.swift in Sources */,
 				01045A91211988F100D2BE3D /* Inference.swift in Sources */,
@@ -840,6 +847,7 @@
 				E4E4D3CA2033F17C000D7CB1 /* EnumAssociable.swift in Sources */,
 				01BBD85A21DAA2A600457380 /* Globs.swift in Sources */,
 				01045A92211988F100D2BE3D /* Inference.swift in Sources */,
+				4967C03C2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */,
 				01F3DF8D1DB9FD3F00454944 /* Options.swift in Sources */,
 				E4FABAD6202FEF060065716E /* OptionDescriptor.swift in Sources */,
 				01A8320724EC7F7600A9D0EB /* FormattingHelpers.swift in Sources */,
@@ -872,6 +880,7 @@
 				E41CB5C32026CACD00C1BEDE /* ListSelectionTableCellView.swift in Sources */,
 				E4872129201E3DD50014845E /* RulesStore.swift in Sources */,
 				E41CB5BF2025761D00C1BEDE /* UserSelection.swift in Sources */,
+				4967C03D2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */,
 				E4872111201D3B830014845E /* Options.swift in Sources */,
 				01A95BD3225BEDE400744931 /* ParsingHelpers.swift in Sources */,
 				90C4B6CD1DA4B04A009EB000 /* AppDelegate.swift in Sources */,
@@ -893,6 +902,7 @@
 				9028F7841DA4B435009FE5B4 /* Tokenizer.swift in Sources */,
 				90F16AFB1DA5ED9A00EB4EA1 /* CommandErrors.swift in Sources */,
 				01A8320924EC7F7800A9D0EB /* FormattingHelpers.swift in Sources */,
+				4967C03E2618AB0E009C83D5 /* DirectoryWatcher.swift in Sources */,
 				018541CF1DBA0F17000F82E3 /* XCSourceTextBuffer+SwiftFormat.swift in Sources */,
 				E4962DE1203F3CD500A02013 /* OptionsStore.swift in Sources */,
 				9028F7851DA4B435009FE5B4 /* Formatter.swift in Sources */,
